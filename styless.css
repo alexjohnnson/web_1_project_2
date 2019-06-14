@@ -1,0 +1,295 @@
+@import url('https://raw.githubusercontent.com/alexjohnnson/web_1_project_2/master/assets/fonts/blanch/BLANCH_CAPS.ttf');
+
+body {
+	font-family: 'BLACH_CAPS', sans-serif;
+}
+#left {
+    float: left;
+    display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#right {
+    float: right;
+  margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    border-radius: 8px;
+}
+.feature {
+  display: flex;
+  height: 350px;
+  width: 90%;
+  background-color: #979899;
+  margin: auto;
+  border: 10px solid white;
+}
+.leftarrow {
+  width: 55px;
+  height: 50px;
+  position: absolute;
+ top: 270px;
+  left: 34px;
+}
+.rightarrow {
+  width: 55px;
+  height: 50px;
+  position: absolute;
+  top:270px;
+  left: 940px;
+}
+section#gallery {
+  position: relative;
+  left: 40px;
+  display: grid;
+  height: 90vh;
+  width: 90vw;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+div {
+  background: gray;
+}
+
+#a{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border: 10px solid white;
+}
+#b{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: 10px solid white;
+  background: white;
+}
+#c{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  border: 10px solid white;
+  background: white;
+}
+#d{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 10px solid white;
+}
+#e{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 10px solid white;
+}
+#f{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 10px solid white;
+}
+.leftarrow {
+  position: absolute;
+  left: -15px;
+  top: 200px;
+}
+.rightarrow {
+  position: absolute;
+  left: 505px;
+  top: 200px;
+}
+section#portfolio {
+  display: grid;
+  height: 50vh;
+  width: 900px;
+  padding: 50px;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;   
+  }
+.alex {
+  position: absolute;
+  top: 760px;
+  text-size: 12px;
+  color: gray;
+}
+#1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#5 {
+   grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#6 {
+   grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#7 {
+   grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#8 {
+   grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+footer {
+  background-image: url("https://github.com/alexjohnnson/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  filter: brightness(80%);
+  height: 300px;
+  width: 100vw;
+}
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+	grid-gap: 12px;
+	margin: 12px;
+}
+#links {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  left: 0px;
+  height: 250px;
+}
+  
+.bar {
+  position: absolute;
+  background: gray;
+  width: 1055px;
+  height: 50px;
+  top: 1200px;
+  left: 20px;
+}
+.abt, .gal, .doc{
+  padding: 5px;
+  font-size: 12px;
+}
+.looking {
+  color: gray;
+}
+.find, .major {
+  color: white;
+}
+.search {
+  background-color: white;
+  height: 40px;
+  width: 200px;
+}
+#vcd {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  height: 250px;
+}
+.visual {
+  color: gray;
+  left: 100px;
+}
+.read, .abt, .gal, .doc, .v {
+  color: gray;
+}
+#view {
+  position: relative;
+  top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  height: 30vh;
+  width: 25vw;
+}
+#k {
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#l {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#m{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#n {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#o {
+   grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#p {
+   grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#q {
+   grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#r {
+   grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
